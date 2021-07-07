@@ -1,2 +1,2 @@
 # SLIDDES-Unity-MathC
-A collection of custom math releated functions for Unity
+A collection of custom math releated functions for Unity in a Unity package

@@ -341,6 +341,25 @@ namespace SLIDDES
         }
 
         /// <summary>
+        /// Shuffle a list
+        /// </summary>
+        /// <typeparam name="T">The type of the list</typeparam>
+        /// <param name="list">The list to shuffle</param>
+        /// <returns>The shuffeld list</returns>
+        public static List<T> ShuffleList<T>(List<T> list) // does this belong here tho?
+        {
+            for(int i = 0; i < list.Count; i++)
+            {
+                T temp = list[i];
+                int randomIndex = UnityEngine.Random.Range(i, list.Count);
+                list[i] = list[randomIndex];
+                list[randomIndex] = temp;
+            }
+
+            return list;
+        }
+
+        /// <summary>
         /// Snap values to given grid values
         /// </summary>
         /// <param name="pos">The position to snap</param>

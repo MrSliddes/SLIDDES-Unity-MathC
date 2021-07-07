@@ -13,11 +13,10 @@
     "c",
     "custom math"
   ],
-  "author": 
-    {
+  "author": {
     "name": "SLIDDES",
     "email": "support.sliddes.com",
     "url": "https://www.sliddes.com"
   },
-  "type": "tool"
+  "type": "library"
 }
